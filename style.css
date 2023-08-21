@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav{
+    padding-right: 10vw;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.4rem;
+    padding: 10px 20px;
+}
+
+.name-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://imgs.search.brave.com/8qTl0Z15Be6p44xtl0n5E7novkIy3_DUPlYgIuQpA6s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by8z/ZC1kYXJrLWdydW5n/ZS1kaXNwbGF5LWJh/Y2tncm91bmQtd2l0/aC1zbW9reS1hdG1v/c3BoZXJlXzEwNDgt/MTYyMTguanBnP3Np/emU9NjI2JmV4dD1q/cGc);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightblue;
+}
+.name-container h4{
+    font-size: 2em;
+    padding-right: 700px;
+    margin-top: 120px;
+    color: #fff;
+}
+.name-container h1{
+    font-size: 6em;
+    color: #fff;
+}
+hr{
+    display: inline-block;
+    width: 2px;
+    background-color: black;
+}
+.course{
+    width: 30vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+}
+.course p{
+    font-size: 1.4em;
+    padding: 0 10px;
+    color: #fff;
+}
+.more{
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.2em;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border: 2px solid crimson;
+    color: #fff;
+    background: transparent;
+}
+.more:hover{
+    background-color: crimson;
+    color: whitesmoke;
+}
+.icons{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+.fa-color {
+    color: grey;
+}
+.fa-color:hover{
+    color: crimson;
+}
+
+.profile-container{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-section h2{
+    margin-bottom: 5px;
+    color: crimson;
+}
+
+.mid-section{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 15%;
+}
+.img img{
+    width: 110px;
+    border-radius: 50%;
+}
+.desc{
+    flex: 0 0 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc p{
+   
+    font-size: 1.2rem;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+.end-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.left{
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.upper h2{
+    text-transform: uppercase;
+}
+.upper p{
+    line-height: 1.5;
+}
+.fname p,.dob p,.website p ,.email p,.job p{
+    font-size: 1.2rem;
+}
+.fname h3,.dob h3,.website h3 ,.email h3,.job h3{
+    text-transform: uppercase;
+}
+.right{
+    flex:0 0 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.skill-desc p{
+    line-height: 1.5;
+}
+.html{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.html h3{
+    text-transform: uppercase;
+}
+.full{
+    width: 100%;
+    height: 7px;
+    background-color: grey;
+}
+.fill-div{
+    width: 80%;
+    height: 100%;
+    background-color: black;             
+}
+.css-div{
+    width: 70%;
+    height: 100%;
+    background-color: black;             
+}
+.js-div{
+    width: 50%;
+    height: 100%;
+    background-color: black;             
+}
+.react-div{
+    width: 80%;
+    height: 100%;
+    background-color: black;             
+}
+.ui-div{
+    width: 70%;
+    height: 100%;
+    background-color: black;             
+}
+.percent{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height:20px;
+    position: absolute;
+    top:0;
+    right:59px;
+    padding-top:3px ;
+    height: 4.5vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 32% 75%, 0% 75%);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.percent-css{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height:20px;
+    position: absolute;
+    top:0;
+    right:98px;
+    padding-top:3px ;
+    height: 4.5vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 32% 75%, 0% 75%);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.percent-js{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height:20px;
+    position: absolute;
+    top:0;
+    right:177px;
+    padding-top:3px ;
+    height: 4.5vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 32% 75%, 0% 75%);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.percent-react{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height:20px;
+    position: absolute;
+    top:0;
+    right:59px;
+    padding-top:3px ;
+    height: 4.5vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 32% 75%, 0% 75%);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+.percent-ui{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height:20px;
+    position: absolute;
+    top:0;
+    right:100px;
+    padding-top:3px ;
+    height: 4.5vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 32% 75%, 0% 75%);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bottom .button{
+    cursor: pointer;
+    flex: 0 0 20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 25px;
+    font-size: 1.2rem;
+}
+.btn{
+    cursor: pointer;
+    flex: 0 0 20%;
+    background-color: rgba(0, 0, 0, 0.756);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 25px;
+    font-size: 1.2rem;
+}
+
+.project{
+    padding: 100px 200px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.137);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.project h2{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    width: 100%;  
+    margin-top: 50px;
+    background-color: #000;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+/* .item1 img{
+    width: 100%;
+} */
+.item1:nth-child(1){
+    flex: 0 0 10%;
+}
+.item1:nth-child(2){
+    flex: 0 0 50%;
+}
+.sec{
+    width: 100%;
+    height: 100%;
+}
+.sec1{
+    flex: 0 0 50%;
+    padding: 10px;
+}
+.sec2{
+    flex: 0 0 50%;
+    padding: 10px;
+}
+.service{
+    padding: 160px;
+    width: 100%;
+    height: 100vh;
+}
+.service h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: crimson;
+    margin-bottom: 10px;
+}
+.service h2{ 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+.service-container{
+    margin-top: 50px;
+    display: flex;
+    padding: 50px 100px;
+}
+.fa-colo{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: crimson;
+}
+.p{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+.p1{
+    padding: 0 10px;
+}
+.hours{
+    background-color: rgb(220, 20, 93);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-done, .working-hours{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hr{
+    height: 20vh;
+    width: 1px;
+    background-color: rgba(128, 128, 128, 0.559);
+}
+.fa-co{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.project-done .num,.working-hours .num{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+.project-done h5,.working-hours h5{
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: .10rem;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding:100px 0;
+    background-color: #000000e4;
+}
+.contact-container h3{
+    color: crimson;
+    text-transform: uppercase;
+}
+.contact-container h2{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.form{
+    margin-top: 50px;
+    width: 40%;
+    margin-bottom: 50px;
+}
+form input{
+    outline: 0;
+    padding: 25px;
+    border: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(134, 127, 127);
+    color: white;
+}
+textarea{
+    width: 100%;
+    outline: 0;
+    border: none;
+    padding: 25px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(134, 127, 127);
+    margin-bottom: 30px;
+    color: white;
+}
+form input:focus{
+    border-bottom:2px solid crimson;
+}
+textarea:focus{
+    border-bottom:2px solid crimson;
+}
+form button{
+    width: 100%;
+    height: 7vh;
+    background-color: #FF0077;
+}
+footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    background-color: #000000e4;
+}
+footer p{
+    margin: 0 20px;
+    color: white;
+}
+footer hr{
+    background-color: white;
+}
